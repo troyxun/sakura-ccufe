@@ -1,0 +1,26 @@
+<view class="title" style="margin-top: {{statusBarHeight}}px;">
+    <image src="//static.itroy.cc/sakura-ccufe/title.webp" width="10px" mode="widthFix" alt=""/>
+</view>
+<view class="container">
+    <view class="left">
+        <canvas id="card" class="canvas" type="2d" canvas-id="card" onResize="onResize" style="width: 100%; height: {{canvasHeight}}px;"></canvas>
+        <view class="buttons">
+            <button bindtap="upload">上传照片</button>
+            <button disabled="{{ !save }}"  bindtap="saveImg">保存到相册</button>
+        </view>
+    </view>
+    <view class="right">
+        <scroll-view class="card-section" scroll-y="true" >
+            <view id="card1" class="card-section-item" bindtap="tap"><image src="https://static.itroy.cc/sakura-ccufe/1.webp" class="card-image" mode="widthFix" alt=""/></view>
+            <view id="card2" class="card-section-item" bindtap="tap"><image src="https://static.itroy.cc/sakura-ccufe/2.webp" class="card-image" mode="widthFix" alt=""/></view>
+            <view id="card3" class="card-section-item" bindtap="tap"><image src="https://static.itroy.cc/sakura-ccufe/3.webp" class="card-image" mode="widthFix" alt=""/></view>
+            <view id="card4" class="card-section-item" bindtap="tap"><image src="https://static.itroy.cc/sakura-ccufe/4.webp" class="card-image" mode="widthFix" alt=""/></view>
+            <view id="card5" class="card-section-item" bindtap="tap"><image src="https://static.itroy.cc/sakura-ccufe/5.webp" class="card-image" mode="widthFix" alt=""/></view>
+        </scroll-view>
+    </view>
+</view>
+<view class="copyright" style="margin-bottom: {{bottom}}px;">
+    <text>Designed by C h e n g</text>
+    <text>Developed by Troy with <text style="color: red;">♥</text></text>
+    <text>Github: @troyxun/sakura-ccufe</text>
+</view>

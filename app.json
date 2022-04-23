@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/we-cropper/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "长财 2022 樱花透卡",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

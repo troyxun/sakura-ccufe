@@ -1,0 +1,44 @@
+/* pages/we-cropper/index.wxss */
+page {
+  height: 100%;
+  background-image: url(//static.itroy.cc/sakura-ccufe/background.webp);
+  background-size: cover;
+  background-position: right;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  height: 100%;
+  box-sizing: content-box;
+  overflow: hidden;
+}
+
+.cropper-wrapper{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background-color: #e5e5e5;
+}
+
+.cropper-buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 48rpx;
+}
+
+.cropper-buttons button{
+  background: #ffa7a6;
+  width: 288rpx;
+  color: #fff;
+}

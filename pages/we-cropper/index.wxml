@@ -1,0 +1,8 @@
+<!--pages/we-cropper/index.wxml-->
+<import src="../../utils/we-cropper/we-cropper-2d.wxml"/>
+<view class="container">
+    <template is="we-cropper" data="{{...cropperOpt}}"/>
+    <view class="cropper-buttons">
+        <button class="getCropperImage" bindtap="getCropperImage">裁剪图片</button>
+    </view>
+</view>

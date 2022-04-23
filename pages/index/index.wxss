@@ -1,0 +1,97 @@
+/**index.wxss**/
+page {
+  height: 100%;
+  background-image: url(//static.itroy.cc/sakura-ccufe/background.webp);
+  background-size: cover;
+  background-position: right;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  margin-top: 12px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  height: 100%;
+  box-sizing: content-box;
+  overflow: hidden;
+}
+.title {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+.title image {
+  width: 330rpx;
+}
+.left {
+  flex: 0.75;
+  overflow: hidden;
+  padding: 0 24rpx;
+  display: flex;
+  flex-direction: column;
+}
+.right {
+  flex: 0.25;
+  overflow: hidden;
+}
+
+.canvas {
+  border: 5rpx solid #f0babc;
+  box-sizing: border-box;
+  background-color: rgba(255, 243, 227, 0.5);
+}
+
+.card-section {
+  width: 125rpx;
+  margin: 0 auto;
+}
+.card-section-item {
+  border: 5rpx solid #f0babc;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 24rpx;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.card-section-item image {
+  /* height: auto; */
+  width: 125rpx;
+}
+.buttons {
+  margin-top: 48rpx;
+}
+.buttons button {
+  margin-bottom: 48rpx;
+  background: #ffa7a6;
+  width: 288rpx;
+  color: #fff;
+}
+
+.page-section-spacing{
+  margin-top: 60rpx;
+}
+.scroll-view_H{
+  white-space: nowrap;
+  background-color: #28a745;
+}
+.scroll-view-item{
+  height: 300rpx;
+}
+.scroll-view-item_H{
+  display: inline-block;
+  width: 100%;
+  height: 300rpx;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10pt;
+  color: pink;
+}
